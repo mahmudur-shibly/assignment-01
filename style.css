@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 1600;
+    height: 2908;
+}
 
 /*shared style */
 .font-inter {
@@ -37,14 +41,14 @@ nav{
     align-items: center;
 }
 
-nav .menu{
+.menu{
     display: flex;
     list-style-type: none;
     gap: 32px ;
     align-items: center;
 }
 
-nav .menu a{
+.menu a{
     font-size: 16px;
     color: #000000;
     text-decoration: none;
@@ -54,6 +58,16 @@ nav .menu a{
     display: flex;
     gap: 22px;
     list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    gap: 51px;
+    max-width: 1600;
+    max-height: 92;
 }
 
 
